@@ -1,0 +1,15 @@
+Overview: In this workshop, we embarked on an exciting journey to develop a GenerativeAI application capable of conducting company research and creating investment portfolios. Utilizing Amazon Bedrock and Streamlit, we achieved a seamless integration of various AWS services, demonstrating the power of cloud computing in the realm of financial analysis and decision-making.
+
+Key Achievements:
+
+Setting Up Amazon Bedrock Agent on AWS: We successfully established S3 buckets for storing domain data and artifacts. A knowledge base was configured for our Bedrock agent, integrating economic and financial data from FOMC documents. We created and configured a Lambda function, "PortfolioCreator-actions," tailored for the application's unique needs.
+
+Building the Knowledge Base: Participants gained hands-on experience in setting up and syncing a knowledge base with the Bedrock agent. We focused on leveraging the Anthropic: Claude V1.2 model for intelligent data interpretation.
+
+Configuring AWS Lambda Function: We delved into the intricacies of Python 3.12 to craft a functional Lambda setup. The workshop provided insights into resource policy application and Lambda function deployment.
+
+Agent and Action Group Setup: The creation of the "PortfolioCreator" agent enabled us to define operational rules and integrate the Lambda function. We highlighted the process of creating an agent alias and implementing action groups for portfolio creation, company research, and sending emails.
+
+Practical Applications: Throughout the workshop, we emphasized practical applications by: Testing the knowledge base and agent with real-world prompts. Exploring scenarios like creating investment portfolios based on profit data and conducting company-specific research.
+
+Impact and Takeaways: The workshop not only equipped participants with the technical know-how but also provided a broader understanding of how agents on Amazon Bedrock can revolutionize financial analysis and investment strategies, along with many other domains. This hands-on experience has laid a foundation for innovative approaches in data-driven decision-making within the financial sector.
